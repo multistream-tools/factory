@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "name": "multistream-tools-project",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "vite"
+  },
+  "devDependencies": {
+    "@multistream-tools/builder": "github:multistream-tools/builder#semver:1"
+  }
+}
