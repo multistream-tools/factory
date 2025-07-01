@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Security-Policy" />
+    <meta charset="utf-8" />
+    <meta name="referrer" content="same-origin" />
+    <meta name="robots" content="noindex,nofollow" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title data-i18n="title">Custom dock example</title>
+    <script type="module" src="./dock.html.js"></script>
+    <link rel="stylesheet" href="https://obs.multistream.tools/v1/core.css" />
+    <link rel="stylesheet" href="https://obs.multistream.tools/v1/overlay.css" />
+    <link rel="stylesheet" href="https://obs.multistream.tools/v1/dock.css" />
+  </head>
+  <body>
+    <form id="settingsForm" class="page">
+      <section class="content">
+        <label class="fields field">
+          <input class="input" name="text" required />
+          <span class="label" data-i18n="textInput">Text input</span>
+        </label>
+        <fieldset class="fields">
+          <legend class="label" data-i18n="checkboxes">Checkboxes</legend>
+          <div class="row">
+            <label class="field">
+              <input class="input" type="checkbox" name="checkbox1" checked />
+              <span class="label" data-i18n="checkbox1">Checkbox 1</span>
+            </label>
+            <label class="field">
+              <input class="input" type="checkbox" name="checkbox2" />
+              <span class="label" data-i18n="checkbox2">Checkbox 2</span>
+            </label>
+          </div>
+        </fieldset>
+        <fieldset class="fields">
+          <legend class="label" data-i18n="radioButtons">Radio buttons</legend>
+          <label class="field">
+            <input class="input" type="radio" name="radio" value="radio1" checked />
+            <span class="label" data-i18n="radio1">Radio button 1</span>
+          </label>
+          <label class="field">
+            <input class="input" type="radio" name="radio" value="radio2" />
+            <span class="label" data-i18n="radio2">Radio button 2</span>
+          </label>
+      </section>
+      <footer class="toolbar">
+        <button id="simpleButton" class="button" type="button" data-i18n="button">Button</button>
+        <button id="submitButton" class="button" disabled data-i18n="submit">Submit</button>
+        <button class="button danger" type="reset" data-i18n="reset">Reset</button>
+      </footer>
+    </form>
+  </body>
+</html>

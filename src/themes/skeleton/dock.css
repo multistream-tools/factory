@@ -1,0 +1,13 @@
+/* Extend existing theme. */
+@import 'https://obs.multistream.tools/v1/themes/streamelements/dock.css';
+
+:root {
+  /* CSS variables go here. */
+}
+
+/* Optional, French related changes for example. */
+:root[lang|='fr'] {
+  /* Translated CSS variables go here. */
+}
+
+/* Your own styles go here. */

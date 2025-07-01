@@ -1,0 +1,9 @@
+:root {
+  --fontSize: 40px;
+  --containerBackgroundColor: red;
+}
+
+#logContainer {
+  background-color: var(--containerBackgroundColor);
+  white-space: pre;
+}
